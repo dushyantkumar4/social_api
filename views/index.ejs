@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Media App</h1><br>   
+    <div class="user">@<%= user.username%> <button>Follow</button>&nbsp; &nbsp;<button>Follwoing</button></div><br>
+    <p><%=user.posts %>Posts &nbsp;&nbsp;&nbsp;<%=user.followers%>Followers&nbsp;&nbsp;&nbsp;<%=user.following%>Following</p><br>
+    <p><%=user.about%> <button><a href="http://localhost:8080/app/<%=user.username%>/edit">Edit</a></button></p>
+    <br><br><br><br>
+    <button><a href="http://localhost:8080/app">Create new Account</a></button>
+    <!-- <button><a href="http://localhost:8080/app/change">Switch user</a></button> -->
+
+</body>
+</html>

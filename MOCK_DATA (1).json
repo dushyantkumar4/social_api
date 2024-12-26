@@ -1,0 +1,23 @@
+[
+  {
+    "username": "dushyant",
+    "posts": 2,
+    "followers": 6096,
+    "following": 16,
+    "about": "working as software engineer"
+  },
+  {
+    "username": "alok",
+    "posts": 25,
+    "followers": 9916,
+    "following": 97,
+    "about": "working as manager in bank"
+  },
+  {
+    "username": "akash",
+    "posts": 13,
+    "followers": 6184,
+    "following": 38,
+    "about": "working in finance company"
+  }
+]
